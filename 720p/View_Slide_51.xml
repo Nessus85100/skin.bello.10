@@ -70,6 +70,7 @@
 						<include>SlideViewFocusAnimation</include>
 						<include content="HomeWidgetsTitleLabel">
 							<param name="width" value="935"/>
+							<param name="label" value="$VAR[ListItem_LabelVar]"/>
 							<param name="visible" value="!ListItem.IsParentFolder"/>
 							<param name="animation_end" value="0,-245"/>
 							<param name="animation_condition" value="Control.HasFocus(100)"/>
